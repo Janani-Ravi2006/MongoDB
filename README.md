@@ -28,3 +28,22 @@ The following command is used to connect with database even if database is not e
 use [database name]
 #Example
 use maxishop
+
+
+<details> <summary>📦 Insert an Embedded Document</summary>
+js
+Copy
+Edit
+db.products.insertOne({
+  name: 'Lenovo Legion',
+  price: 120000,
+  brand: 'Lenovo',
+  productType: 'Laptop',
+  specification: {
+    ram: '16 GB',
+    processor: 'i7 13th Gen',
+    storageType: 'SSD',
+    storageSize: '1 TB'
+  }
+});
+</details>
