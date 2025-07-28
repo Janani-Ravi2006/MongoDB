@@ -47,3 +47,7 @@ db.products.insertOne({
   }
 });
 </details>
+
+
+db.products.insertOne({name: 'Lenovo Legion', price: 120000, brand: 'Lenovo', productType: 'Laptop', specification: {ram: '16 GB', processor: 'i7 13th Gen', storageType: 'SSD', storageSize: '1 TB'}})
+
