@@ -1,27 +1,35 @@
-# MongoDB
+# 📦 MongoDB Setup Guide
 
-How to Configure MongoDB
+This guide will help you install and configure MongoDB, and walk you through basic NoSQL commands.
 
-Step 1
-Install MongoDB Database
-Download MongoDB - https://www.mongodb.com/try/download/community
+---
 
-Step 2
-Install MongoDB Shell
-Download MongoDB Shell - https://www.mongodb.com/try/download/shell
+## ⚙️ How to Configure MongoDB
 
-No-SQL Commands
+### Step 1: Install MongoDB Database
+Download MongoDB Community Server:  
+👉 [MongoDB Community Download](https://www.mongodb.com/try/download/community)
 
-Connecting to MongoDB Server
+### Step 2: Install MongoDB Shell (mongosh)
+Download MongoDB Shell:  
+👉 [MongoDB Shell Download](https://www.mongodb.com/try/download/shell)
 
-Step 1: Open command prompt(cmd) in your system
-Step 2: Type 'mongosh' then hit enter key
+---
+
+## 🧩 NoSQL Commands
+
+### ✅ Connecting to MongoDB Server
+
+1. Open **Command Prompt (cmd)**.
+2. Type `mongosh` and press `Enter`.
+
+---
 
 Show database
-
 #The following command is used to show avaliable database list.
 
 show dbs
+
 Command to connect database
 The following command is used to connect with database even if database is not exists it will create new database.
 #Syntax
