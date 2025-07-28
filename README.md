@@ -1,8 +1,8 @@
 # MongoDB Complete Course
 
-##### Youtube - [https://www.youtube.com/@codewithkarthik](https://www.youtube.com/@codewithkarthik)
 
-![https://www.youtube.com/@codewithkarthik](https://yt3.ggpht.com/twg8jbKidn4ovJaChPm2X5de9fRGlwt5xvltlqi7KltzzfMsHyMBjF8Q6iDP7KVR_mF8kWQs=s88-c-k-c0x00ffffff-no-rj)
+
+
 
 # How to Configure MongoDB
 
@@ -18,9 +18,6 @@ Download MongoDB - [https://www.mongodb.com/try/download/community](https://www.
 
 Download MongoDB Shell - [https://www.mongodb.com/try/download/shell](https://www.mongodb.com/try/download/shell)
 
-### Step 3
-
-Configure Enviroment Variables As Per Tutorial Video - [https://youtu.be/0zwYbudzaJc](https://youtu.be/0zwYbudzaJc)
 
 ---
 
@@ -1017,4 +1014,4 @@ db.projects.aggregate([{$lookup:{from:'employee_projects',localField:'_id',forei
 
 ---
 
-# Copyrights to codewithkarthik
+
