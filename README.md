@@ -25,44 +25,21 @@ Download MongoDB Shell:
 
 ---
 
-Show database
-#The following command is used to show avaliable database list.
+## 🗃️ Creating Collection & Document
 
-show dbs
+To insert a single document into a collection. If the collection does not exist, MongoDB will create it automatically.
 
-Command to connect database
-The following command is used to connect with database even if database is not exists it will create new database.
-#Syntax
-use [database name]
+### 🔹 Syntax
+```js
+db.collectionName.insertOne({ document })
+
 #Example
-use maxishop
-
-
-<details> <summary>📦 Insert an Embedded Document</summary>
-js
-Copy
-Edit
-db.products.insertOne({
-  name: 'Lenovo Legion',
-  price: 120000,
-  brand: 'Lenovo',
-  productType: 'Laptop',
-  specification: {
-    ram: '16 GB',
-    processor: 'i7 13th Gen',
-    storageType: 'SSD',
-    storageSize: '1 TB'
-  }
-});
-</details>
-
-
-db.products.insertOne({name: 'Lenovo Legion', price: 120000, brand: 'Lenovo', productType: 'Laptop', specification: {ram: '16 GB', processor: 'i7 13th Gen', storageType: 'SSD', storageSize: '1 TB'}})
-
-
+db.products.insertOne({name:'Iphone 15',price:80000})
 
 ### 💡 Scrollable Insert Command
 
 ```js
 db.products.insertOne({name: 'Lenovo Legion', price: 120000, brand: 'Lenovo', productType: 'Laptop', specification: {ram: '16 GB', processor: 'i7 13th Gen', storageType: 'SSD', storageSize: '1 TB'}})
+
+
 
